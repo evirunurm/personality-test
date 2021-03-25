@@ -2,7 +2,7 @@
 
 ******************************************************
 ******************************************************
-*** This is a short and simple test I found online ***
-****   and decided to make a web to practice JS.  ****
+This is a short and simple test I found online
+and decided to make a web to practice JS.
 ******************************************************
 ******************************************************
