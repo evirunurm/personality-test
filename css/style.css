@@ -1,0 +1,157 @@
+/********* ************** *********/
+/********* BACKGROUND IMG *********/
+/********* ************** *********/
+.img02-index {
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+  width: 2000px;
+}
+.img01-how-it-works{
+  position: absolute;
+  top: -20px;
+}
+.img02-how-it-works {
+  position: absolute;
+  right: -10px;
+}
+.img03-how-it-works {
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+  width: 2000px;
+}
+.img02-who-is-dr-phil {
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+  width: 2000px;
+}
+
+/********* **** *********/
+/********* FONT *********/
+/********* **** *********/
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ECFAFF;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+}
+h1, h2 {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+}
+span {
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.25em;
+}
+h2 {
+  font-size: 1.125em;
+}
+button.main_test {
+  font-size: 1.5em !important;
+}
+button.header_test {
+font-size: 1.2em
+}
+a {
+  font-size: 1.625em;
+}
+/********* ****** *********/
+/********* HEADER *********/
+/********* ****** *********/
+header {
+  position: absolute;
+  width: 100vw;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: baseline !important;
+  justify-content: space-between;
+}
+button.header_test {
+  padding: 15px 55px;
+  border-radius: 10px;
+  border: none;
+  background-color: #FEFFFF;
+  position: fixed;
+  top: 0.6rem;
+  left: 1rem;
+}
+.header_links {
+  padding: 1rem;
+  position: fixed;
+  right: 10px;
+}
+.header_links a {
+  margin: 1rem 3rem;
+  text-decoration: none;
+  color: rgba(41,41,41,1);
+}
+.header_links a:hover {
+  color: rgba(41,41,41,0.7);
+}
+/********* **** *********/
+/********* MAIN *********/
+/********* **** *********/
+.main {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+h1 {
+  padding: 0.5rem;
+  line-height: 3rem;
+}
+h2 {
+  line-height: 1.5em;
+  margin-bottom: 6rem;
+}.result {
+}
+button.main_test, .button-answer, .button-previous {
+  padding: 1.1875em 4em;
+  border-radius: 10px;
+  border: none;
+  background-color: #FEFFFF;
+}
+button:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+.buttons-answer {
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+}
+.button-answer {
+  margin: 1rem;
+  padding: 40px 50px;
+}
+.button-previous {
+  position: absolute;
+  left: 5vw;
+  bottom: 10vh;
+}
+
+div.result {
+  width: 50vw;
+}
+
+/* .question02, .question03, .question04, .question05, .question06, .question07, .question08, .question09, .question10 {
+  display: hidden;
+} */
